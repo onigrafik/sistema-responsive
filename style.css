@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.caja1{
+    background-color: violet;
+    height: 5rem;
+}
+.caja2{
+    background-color: blue;
+    height: 3rem;
+}
+.caja3{
+    background-color: lightgreen;
+    height: 20rem;
+}
+.caja4{
+    background-color: yellow;
+    height: 5rem;
+}
+.caja5{
+    background-color: yellow;
+    height: 40rem;
+    margin-left: 10px;
+    
+}
+.caja6{
+    background-color: blue;
+    height: 40rem;
+    
+}
+.alturablanco {
+    background-color: white;
+    height: 5rem;
+}
+.caja7{
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    height: 30rem;
+    margin-right: 10px;
+  
+}
+.caja8{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: 30rem;
+    margin-right: 10px;
+   
+}
+.caja9{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 30rem;
+  
+}
+.division{
+   
+    padding-top: 10px;
+}
+.caja10{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    height: 30rem;
+    margin-right: 20px;
+  
+}
+.caja11{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    height: 30rem;
+  
+}
+.raya{
+    display: flex;
+    justify-content: center;
+    border: 1px solid gainsboro;
+
+
+}
+
+/*comienzo consulta de medios para samsung*/
+
+@media (max-width: 576px) {
+    .caja5 .caja6 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    }
